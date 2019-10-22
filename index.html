@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Home</title>
+    <!-- 茶叶→ -->
+    <link rel="stylesheet" href="css/tea.css">
     <!-- load stylesheets -->
     <link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">
     <!-- Google web font "Open Sans" -->
@@ -45,25 +47,26 @@
                 <div class="collapse navbar-toggleable-sm text-xs-center text-uppercase tm-navbar" id="tmNavbar">
                     <ul class="nav navbar-nav">
                         <li class="nav-item active selected">
-                            <a class="nav-link" href="#0" data-no="1">我的作业 <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#0" data-no="1">介绍 <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="2">About</a>
+                            <a class="nav-link" href="#0" data-no="2">我的作业</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="3">Gallery</a>
+                            <a class="nav-link" href="#0" data-no="3">展示</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="4">Video</a>
+                            <a class="nav-link" href="#0" data-no="4">练习</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#0" data-no="5">Contact</a>
+                            <a class="nav-link" href="#0" data-no="5">关于</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
 
+        <!-- 介绍 -->
         <ul class="cd-hero-slider">
             <!-- autoplay -->
             <li class="selected">
@@ -75,7 +78,7 @@
                             <div class="col-xs-12">
                                 <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
                                     <div style="width: 500px;min-height: 200px;">
-                                        <p><a href="./说明.htm">kkkkkk</a></p>
+                                        <p style="text-align: center;font-weight: bold;font-size: 25px;line-height: 200px;">欢迎来到我的博客</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,6 +90,7 @@
                 <!-- .cd-full-width -->
             </li>
 
+            <!-- 我的作业 -->
             <li>
                 <div class="cd-full-width">
 
@@ -95,17 +99,20 @@
                             <div class="col-xs-12">
                                 <div class="tm-2-col-container">
 
+                                    <!-- 第一次作业 -->
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
-                                        <h2 class="tm-text-title">Lorem ipsum dolor</h2>
-                                        <p class="tm-text">Quisque sagittis quam tortor, sit amet posuere justo tempor non. Cras tempus, eros vel ultrices aliquam, velit tortor sodales risus, ac facilisis lectus tortor eget neque.</p>
-                                        <p class="tm-text">Nam auctor dui ante. Curabitur tristique nec ligula ac semper. Nunc eu leo sit amet elit condimentum consectetur.</p>
+                                        <h2 class="tm-text-title">第一次作业</h2>
+                                        <a href="茶叶/茶叶.html">
+                                            <p class="tm-text" style="text-align: center;">茶叶→</p>
+                                        </a>
                                     </div>
 
+                                    <!-- 第二次作业 -->
                                     <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox">
-                                        <h2 class="tm-text-title">Phasellus rutrum sapien</h2>
-                                        <p class="tm-text">
-                                            Donec sagittis sapien odio, a sodales velit elementum nec. Donec feugiat purus a bibendum hendrerit.</p>
-                                        <p class="tm-text">Fusce ut elit interdum sem consectetur maximus. Mauris eros lacus, sollicitudin sit amet lacinia et, vehicula bibendum felis. Pellentesque in quam iaculis erat iaculis lacinia.</p>
+                                        <h2 class="tm-text-title">路由</h2>
+                                        <a href="./路由/index.html">
+                                            <p class="tm-text" style="text-align: center;">路由→</p>
+                                        </a>
                                     </div>
 
                                 </div>
@@ -118,7 +125,7 @@
 
             </li>
 
-            <!-- Page 3 -->
+            <!-- Page 3展示 -->
             <li>
 
                 <div class="cd-full-width">
@@ -164,12 +171,18 @@
 
             </li>
 
+            <!-- 练习 -->
             <li>
                 <!-- class="cd-bg-video" -->
                 <div class="js-tm-page-content" data-page-no="4">
 
                     <div class="cd-bg-video-wrapper" data-video="video/sunset-loop">
                         <!-- video element will be loaded using jQuery -->
+                        <div style="margin-top: 200px;">
+                            <div style="width: 500px;min-height: 200px;">
+                                <p style="text-align: center;font-weight: bold;font-size: 25px;line-height: 200px;margin-left: 400px;width: 500px;height: 300px;border: 1px solid;">练习</p>
+                            </div>
+                        </div>
                     </div>
                     <!-- .cd-bg-video-wrapper -->
 
@@ -177,6 +190,7 @@
 
             </li>
 
+            <!-- 关于 -->
             <li>
                 <div class="cd-full-width">
 
@@ -188,8 +202,8 @@
 
                                 <div class="col-xs-12">
 
-                                    <h2 class="tm-section-title">Contact Us</h2>
-                                    <p class="tm-text tm-font-w-400 m-b-3">Pellentesque in quam iaculis erat iaculis lacinia. Donec sagittis sapien odio, a sodales velit elementum nec. Donec feugiat purus a bibendum hendreit.</p>
+                                    <h2 class="tm-section-title">关于博客</h2>
+                                    <p class="tm-text tm-font-w-400 m-b-3"></p>
 
                                 </div>
 
@@ -243,7 +257,8 @@
                 <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
             </div>
 
-            <p class="tm-copyright-text">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+            <!-- <p class="tm-copyright-text">Copyright &copy; 2016.Company name All rights reserved.
+                <a target="_blank" href="http://sc.chinaz.com/moban/" </a></p> -->
 
         </footer>
 
@@ -262,7 +277,7 @@
     <!-- load JS files -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <!-- jQuery (https://jquery.com/download/) -->
-    <script src="ja/tether.min.js"></script>
+    <script src="js/tether.min.js"></script>
     <!-- Tether for Bootstrap (http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h) -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
